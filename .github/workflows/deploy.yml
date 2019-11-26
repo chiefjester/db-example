@@ -26,8 +26,8 @@ jobs:
       with:
         state: 'success'
         token: '${{ github.token }}'
-        environment-url: 'https://example.com'
-        log-url: 'https://example.com/log'
+        environment-url: 'https://yahoo.com'
+        log-url: 'https://google.com'
 
     - name: 'Deployment failure'
       if: failure()
